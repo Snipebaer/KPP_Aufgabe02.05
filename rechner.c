@@ -1,13 +1,13 @@
 int main()
 {
 
-	float benzinVerbrauch, kilometer;
+	double benzinVerbrauch, kilometer;
 
 	printf("Geben Sie den Benzinverbrauch ein: ");
-	scanf("%f", &benzinVerbrauch);
+	scanf("%lf", &benzinVerbrauch);
 
 	printf("\nGeben Sie die Kilometerzahl ein: ");
-	scanf("%f", &kilometer);	
+	scanf("%lf", &kilometer);	
 
 	printf("Benzinverbrauch: %.2f Liter\n", benzinVerbrauch * (kilometer/100));
 
